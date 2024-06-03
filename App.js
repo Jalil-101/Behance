@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Glamhub1 from "./Screens/Glamhub1";
 import Glamhub2 from "./Screens/Glamhub2";
 import Glamhub3 from "./Screens/Glamhub3";
+import MyTabs from "./Components/MyTabs";
 
 
 
@@ -22,7 +23,7 @@ function App() {
         />
         <Stack.Screen
           name="Proshow"
-          component={Glamhub2}
+          component={MyTabs}
           options={{ headerShown: false }}
         />
         <Stack.Screen
